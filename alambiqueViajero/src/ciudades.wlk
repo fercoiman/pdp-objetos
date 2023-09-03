@@ -1,4 +1,5 @@
 object paris {
+	
 	method recuerdo(){
 		return llavero
 	}
@@ -9,7 +10,7 @@ object llavero{
 }
 
 object buenosAires {
-
+    var mate = 66
 	method recuerdo() { 
 	return mate
 	
@@ -18,9 +19,9 @@ object buenosAires {
 }
 
 object mate{
-	
-	method tieneYerba(presidente){
-		return presidente = 
+	var presidente = 0
+	method tieneYerba(){
+		return presidente + 5
 	}
 }
 
