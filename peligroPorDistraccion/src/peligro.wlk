@@ -41,4 +41,3 @@ object plantaNuclear {
 	}
 	method estaEnPeligro()= barras > 10000 and encargado.estaDistrido()
 }
-
