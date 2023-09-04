@@ -12,6 +12,11 @@ object luke {
 	method viajar(ciudad,vehiculo){
 		
 		
+		
+		
+		
+		
+		
 		lugaresVisitados ++
 	}
 	

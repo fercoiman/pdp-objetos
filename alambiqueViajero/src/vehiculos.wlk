@@ -1,9 +1,13 @@
 object alambiqueVeloz {
-	var combustible = 50
+	var combustible = 0
 	
 	method tanqueLleno(){
 		return combustible >= 50
 	}
+ 	method puedeViajar(ciudad){
+ 		
+ 		
+ 	}
 	
 	
 }
