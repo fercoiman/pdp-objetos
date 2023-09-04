@@ -10,7 +10,8 @@ object luke {
 		return true		
 	}
 	method viajar(ciudad,vehiculo){
-		
+	 // 
+	 //	
 		
 		lugaresVisitados ++
 	}
