@@ -1,15 +1,19 @@
+import vehiculos.*
+
 object paris {
 	
 	//var vehiculo
-	method puedeVenir(vehiculo){
-		
-		
-	}
+
 	method recuerdo(){
 		return llavero
 	}
 	
+	method puedeViajar(vehiculo){
+		return (vehiculo == alambiqueVeloz) && vehiculo.tieneTanqueLLeno()
+	}
+	
 }
+
 
 object llavero{
 }
@@ -29,7 +33,7 @@ object replicaJardinesColgantes{
 object buenosAires {
 	var presidente = "Mariano"
     //method presidente() = "Mariano"
-	method recuerdo(presidente) { 
+	method recuerdo() { 
 		
 		return mate
 	}
@@ -46,19 +50,9 @@ object mateConYerba{
 object bagdad {
 	var anio = 1970
 	
-	method recuerdo(){
-		if (anio == 1970){
-			return barrilPetroleoCrudo
-		}
-		if (anio > 1970){
-			return armaDestruccionMasiva
-		}
-		if (anio < 1970){
-			return replicaJardinesColgantes
-		}	
-	}
+	method recuerdo(){}
 	
-	method puedeVenir(vehiculo){
+	method puedeViajar(vehiculo){
 		return true	
 	}
 	

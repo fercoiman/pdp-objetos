@@ -1,37 +1,33 @@
 object alambiqueVeloz {
-	var combustible = 0
+	var combustible = 50
 	
-	method tanqueLleno(){
+	method tieneTanqueLLeno(){
 		return combustible >= 50
 	}
-
- 	method puedeViajar(ciudad){
- 		
- 		
- 	}
-	
-
-	method esRapido(){
-		return true
-	}
-
+	method esVeloz(){
+ 		return true		
+ 	}	
 }
 
 object superChatarraEspecial{
-	
+	var combustible = 50
 	var soldadoDespierto = 1
 	
-	method esRapido(){
+	method esVeloz(){
 		return soldadoDespierto >= 1
 	}
+	
+	method tieneTanqueLLeno(){
+		return combustible >= 50
+	}
+	
 }
 
 object stukaRacuda{
+	method esVeloz(){
+	}
 	
-}
-
-object troncoMovil{
-	var cantidadPalazos = 0
-	
+	method tieneTanqueLLeno(){
+		}
 	
 }
