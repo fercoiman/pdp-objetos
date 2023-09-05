@@ -25,6 +25,7 @@ object superChatarraEspecial{
 
 object stukaRacuda{
 	method esVeloz(){
+		return false
 	}
 	
 	method tieneTanqueLLeno(){

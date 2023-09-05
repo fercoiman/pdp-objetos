@@ -3,8 +3,6 @@ import vehiculos.*
 
 
 object luke {
-	
-	
 	var lugaresVisitados = 0
 	var recuerdoConservado
 	//var vehiculo = alambiqueVeloz
@@ -15,12 +13,5 @@ object luke {
 				recuerdoConservado = ciudad.recuerdo()
 				lugaresVisitados ++
 		}	
-
-	 
-		
-	}
-	
-	
-	
-	
-	}
+	}		
+}

@@ -1,17 +1,13 @@
 import vehiculos.*
 
 object paris {
-	
-	//var vehiculo
 
 	method recuerdo(){
 		return llavero
 	}
-	
 	method puedeViajar(vehiculo){
 		return (vehiculo == alambiqueVeloz) && vehiculo.tieneTanqueLLeno()
-	}
-	
+	}	
 }
 
 
@@ -37,8 +33,6 @@ object buenosAires {
 		
 		return mate
 	}
-	
-
 }
 
 object mate{
@@ -67,8 +61,7 @@ object lasVegas {
 
 object marDelTuyu{
 	//si hay mas de 3 personas comiendo milanesas en la playa
-	method recuerdo(){
-		
+	method recuerdo(){		
 	}
 	
 }
