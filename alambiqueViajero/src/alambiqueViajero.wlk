@@ -1,3 +1,49 @@
+import ciudades.*
+import vehiculos.*
+import recuerdos.*
+
+object luke {
+	var lugaresVisitados = 0
+	var recuerdoConservado
+	method recuerdoConservado() = recuerdoConservado
+	
+	method visitar(ciudad,vehiculo){	
+		if (ciudad.puedeViajar(vehiculo)){
+				recuerdoConservado = ciudad.recuerdo()
+				lugaresVisitados ++
+		}	
+	}		
+}
+
+
+//Vehiculos
+
+object alambiqueVeloz {
+	var cantCombustible = 50	
+	method tieneTanqueLLeno(){
+		return cantCombustible >= 50
+	}
+	method esVeloz(){  return true	}		
+}
+
+object superChatarraEspecial{
+	var soldadoDespierto = 1
+	var combustible 
+	method esVeloz(){
+		return soldadoDespierto >= 1
+	}
+}
+
+object stukaRacuda{
+	method esVeloz(){
+		return false
+	}
+	
+	method tieneTanqueLLeno(){
+		}
+}
+
+// Ciudades
 import vehiculos.*
 import recuerdos.*
 
@@ -34,7 +80,6 @@ object bagdad {
 		return true	
 	}	
 }
-
 object lasVegas {
 	var lugarHomenajeado = bagdad
 	method lugarHomenajeado(ciudad)= lugarHomenajeado
@@ -53,3 +98,14 @@ object marDelTuyu{
 	}
 	
 }
+
+//Recuerdos
+
+object llavero{}
+object barrilPetroleoCrudo{}
+object armaDestruccionMasiva {}
+object replicaJardinesColgantes{}
+object mate{}
+object mateConYerba{}
+object barrilPetroleo{}
+object focaMirandoAlSudeste{}
